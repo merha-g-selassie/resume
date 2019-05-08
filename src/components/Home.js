@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import WorkExperiences from './WorkExperiences';
-import Card from './Card';
+
 const Home = () => {
 
 	return (
