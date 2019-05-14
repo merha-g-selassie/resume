@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkExperience from './WorkExperience';
-import {faBacon, faBriefcase} from "@fortawesome/free-solid-svg-icons";
+import {faBacon, faSuitcase} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import './WorkExperiences.css';
 
@@ -9,9 +9,9 @@ export default () => {
         <div>
             <div className={'WorkExperiences-title'}>
                 <div className={'WorkExperiences-FontAwesomeIcon'} >
-                    <FontAwesomeIcon size={'2x'} icon={faBriefcase} color="green"/>
+                    <FontAwesomeIcon size={'2x'} icon={faSuitcase} color="green"/>
                 </div>
-                <h1>abc</h1>
+                <h2>abc</h2>
             </div>
             <WorkExperience/>
             <WorkExperience/>

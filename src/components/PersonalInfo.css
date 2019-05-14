@@ -1,0 +1,43 @@
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding: 0;
+}
+.PersonalInfo-margins{
+    margin: 15px;
+}
+div.PersonalInfo-div-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.PersonalInfo-div-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.PersonalInfo-FontAwesomeIcon{
+    padding-top: 4px;
+}
+
+span{
+    margin-left: 15px;
+}
+.bottom-left-firstname {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+}
+.bottom-left-lastname{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.PersonalInfo-text-image{
+    position: relative;
+    text-align: center;
+    color: white;
+}

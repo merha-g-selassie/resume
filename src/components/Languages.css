@@ -1,0 +1,9 @@
+.Languages-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.Languages-FontAwesomeIcon{
+    padding-top: 10px;
+    padding-right: 15px;
+}
