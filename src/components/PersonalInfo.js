@@ -5,6 +5,7 @@ import {faEnvelope, faHome, faBriefcase} from "@fortawesome/free-solid-svg-icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Separation from './Separation';
 import Languages from './Languages';
+import Educations from './Educations';
 
 export default () => {
     return (
@@ -29,9 +30,11 @@ export default () => {
                     <div className={'PersonalInfo-div-flex-row'}>
                         <FontAwesomeIcon className={'PersonalInfo-FontAwesomeIcon'} size={'lg'} icon={faEnvelope}
                                          color="green"/>
-                        <span>merhawi.gs@gmail.com</span>
+                        <span><a href={'mailto:merhawi.gs@gmail.com'}>merhawi.gs@gmail.com</a></span>
                     </div>
                 </div>
+                <Separation/>
+                <Educations/>
                 <Separation/>
                 <Languages/>
             </div>

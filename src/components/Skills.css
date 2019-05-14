@@ -1,10 +1,12 @@
-.WorkExperiences-title{
+
+.Skills-title{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 30px;
 }
-.WorkExperiences-FontAwesomeIcon{
+
+.Skills-Fontawesome-icon{
     padding-top: 10px;
     padding-right: 15px;
 }

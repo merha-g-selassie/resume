@@ -33,7 +33,7 @@ span{
 }
 .bottom-left-lastname{
     position: absolute;
-    bottom: 8px;
+    bottom: 0px;
     left: 16px;
 }
 .PersonalInfo-text-image{
