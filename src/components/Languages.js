@@ -4,6 +4,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Language from './Language';
 import './Languages.css';
 import {themes} from "../colors";
+import {languages} from "../data/languages";
+
 export default () => {
     const style = {
         colorDark: {
@@ -18,8 +20,13 @@ export default () => {
                 </div>
                 <h4 style={style.colorDark}>Languages</h4>
             </div>
-            <Language language={'French'} now={100}/>
-            <Language language={'English'} now={75}/>
+            {
+                languages.map((language, i) => {
+                    return (
+                        <Language key={i} language={language.name} now={language.rate}/>
+                    )
+                })
+            }
         </>
     );
 }

@@ -4,6 +4,7 @@ import {faSuitcase} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import './WorkExperiences.css';
 import {themes} from "../colors";
+import {workExperiences} from "../data/workExperiences";
 
 export default () => {
     const style = {
@@ -14,12 +15,19 @@ export default () => {
     return (
         <div>
             <div className={'WorkExperiences-title'}>
-                <div className={'WorkExperiences-FontAwesomeIcon'} >
+                <div className={'WorkExperiences-FontAwesomeIcon'}>
                     <FontAwesomeIcon size={'2x'} icon={faSuitcase} color={themes.darkBlue}/>
                 </div>
                 <h2 style={style.colorDark}>Work Experience</h2>
             </div>
-            <WorkExperience/>
+            {
+                workExperiences.map((work, i) => {
+                    return (
+                        <WorkExperience key={i} work={work}/>
+                    )
+                })
+            }
+
         </div>
     )
 }

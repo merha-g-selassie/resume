@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import './Languages.css';
 import Education from './Education';
 import {themes} from "../colors";
+import {educations} from "../data/educations";
 
 export default () => {
     const style = {
@@ -17,8 +18,13 @@ export default () => {
                 </div>
                 <h4 style={style}>Education</h4>
             </div>
-            <Education education={null}/>
-            <Education education={null}/>
+            {
+                educations.map((education, i) => {
+                    return (
+                        <Education key={i} education={education}/>
+                    )
+                })
+            }
         </>
     );
 }

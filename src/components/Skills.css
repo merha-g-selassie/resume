@@ -9,3 +9,13 @@
 .Skills-Fontawesome-icon{
     padding-right: 15px;
 }
+.Skill-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Skill-margins{
+    padding: 10px;
+}

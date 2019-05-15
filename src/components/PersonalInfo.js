@@ -1,5 +1,5 @@
 import React from 'react';
-import myPicture from '../john-westrock-638048-unsplash.jpg';
+import myPicture from '../images/john-westrock-638048-unsplash.jpg';
 import './PersonalInfo.css';
 import {faEnvelope, faHome, faBriefcase} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
