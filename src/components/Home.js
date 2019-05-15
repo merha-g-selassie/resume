@@ -3,9 +3,12 @@ import './Home.css';
 import WorkExperiences from './WorkExperiences';
 import PersonalInfo from './PersonalInfo';
 import Skills from './Skills';
+import Footer from './Footer';
+
 const Home = () => {
 
     return (
+        <>
         <div className="grid-container">
             <div className="item1">
                 <PersonalInfo/>
@@ -17,6 +20,8 @@ const Home = () => {
                 <Skills/>
             </div>
         </div>
+        <Footer/>
+        </>
     );
 }
 
