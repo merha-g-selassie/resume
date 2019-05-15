@@ -2,23 +2,24 @@ import javascript from '../images/JavaScript-logo.png';
 import css from '../images/css.png';
 import html from '../images/html.png';
 import nodejs from '../images/nodejs.png';
+import logo from '../logo.svg';
 
 export const skills = [
     {
         name: 'HTML',
-        img: html,
+        img: logo,
     },
     {
         name: 'CSS3',
-        img: css,
+        img: logo,
     },
     {
         name: 'Javascript',
-        img: javascript,
+        img: logo,
     },
     {
         name: 'Node.js',
-        img: nodejs,
+        img: logo,
     },
     {
         name: 'React.js',
