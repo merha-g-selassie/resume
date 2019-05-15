@@ -6,8 +6,11 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Separation from './Separation';
 import Languages from './Languages';
 import Educations from './Educations';
-
+import {themes} from "../colors";
 export default () => {
+    const style = {
+        color: themes.lightGrey
+    };
     return (
         <div>
             <div className={'PersonalInfo-text-image'}>
@@ -16,20 +19,20 @@ export default () => {
                 <p className={'bottom-left-lastname'}>GHEBRE SELASSIE</p>
             </div>
             <div className={'PersonalInfo-margins'}>
-                <div className={'PersonalInfo-div-flex-column'}>
+                <div style={style} className={'PersonalInfo-div-flex-column'}>
                     <div className={'PersonalInfo-div-flex-row'}>
                         <FontAwesomeIcon className={'PersonalInfo-FontAwesomeIcon'} size={'lg'} icon={faBriefcase}
-                                         color="green"/>
+                                         color={themes.darkBlue}/>
                         <span>Software developer</span>
                     </div>
                     <div className={'PersonalInfo-div-flex-row'}>
                         <FontAwesomeIcon className={'PersonalInfo-FontAwesomeIcon'} size={'lg'} icon={faHome}
-                                         color="green"/>
+                                         color={themes.darkBlue}/>
                         <span>Neuchâtel, Switzerland</span>
                     </div>
                     <div className={'PersonalInfo-div-flex-row'}>
                         <FontAwesomeIcon className={'PersonalInfo-FontAwesomeIcon'} size={'lg'} icon={faEnvelope}
-                                         color="green"/>
+                                         color={themes.darkBlue}/>
                         <span><a href={'mailto:merhawi.gs@gmail.com'}>merhawi.gs@gmail.com</a></span>
                     </div>
                 </div>
