@@ -20,7 +20,7 @@ export default () => {
                 </div>
                 <h2 style={style.colorDark}>Skills</h2>
             </div>
-            <div className={'Skill-flex'}>
+            <div className={'grid'}>
                 {
                     skills.map((skill, i) => {
                         return (
