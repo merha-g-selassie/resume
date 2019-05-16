@@ -21,11 +21,11 @@ export default () => {
                 <div style={style.background}>
                     <p style={style.text}>Find me on social media.</p>
                     <div style={style.flex}>
-                        <a href={'https://www.facebook.com/merhawi.ghebreselassie'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faFacebook} color={themes.white}/></a>
-                        <a href={'https://twitter.com/GsMerha'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faTwitter} color={themes.white}/></a>
-                        <a href={'https://www.instagram.com/merha_gs/'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faInstagram} color={themes.white}/></a>
-                        <a href={'https://www.linkedin.com'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faLinkedin} color={themes.white}/></a>
-                        <a href={'https://github.com/merha-g-selassie/'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faGithub} color={themes.white}/></a>
+                        <a href={'https://www.facebook.com/merhawi.ghebreselassie'} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faFacebook} color={themes.white}/></a>
+                        <a href={'https://twitter.com/GsMerha'} aria-label="Twitter" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faTwitter} color={themes.white}/></a>
+                        <a href={'https://www.instagram.com/merha_gs/'} aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faInstagram} color={themes.white}/></a>
+                        <a href={'https://www.linkedin.com'} aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faLinkedin} color={themes.white}/></a>
+                        <a href={'https://github.com/merha-g-selassie/'} aria-label="Github" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={'Footer-icon'} size={'2x'} icon={faGithub} color={themes.white}/></a>
                     </div>
                 </div>
             </footer>
