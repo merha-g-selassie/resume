@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "954758484e6c43ea0c81ae6b722a2497",
+    "revision": "275d54d26962538f99d6e21e9a00c5f8",
     "url": "/resume/index.html"
   },
   {
-    "revision": "36a7c1847ccd9157cbb0",
-    "url": "/resume/static/css/main.abcd846f.chunk.css"
+    "revision": "c600eec7692f9e5e573e",
+    "url": "/resume/static/css/main.8af45d6a.chunk.css"
   },
   {
     "revision": "bddcfbbb894e82387562",
     "url": "/resume/static/js/2.e18b756f.chunk.js"
   },
   {
-    "revision": "36a7c1847ccd9157cbb0",
-    "url": "/resume/static/js/main.7a8855a7.chunk.js"
+    "revision": "c600eec7692f9e5e573e",
+    "url": "/resume/static/js/main.d7b23a9a.chunk.js"
   },
   {
     "revision": "699f89d957187d0ac949",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/javascript.f2c6a7f1.svg"
   },
   {
-    "revision": "2989660903dcb795a8627f8ad45a9892",
-    "url": "/resume/static/media/john-westrock-638048-unsplash.29896609.jpg"
+    "revision": "9f883e98a6908d684d7908a76daba363",
+    "url": "/resume/static/media/john-westrock-638048-unsplash.9f883e98.jpg"
   },
   {
     "revision": "cb12b3c70d0f780f777706f05657af8f",
