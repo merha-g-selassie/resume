@@ -1,0 +1,9 @@
+.WorkExperiences-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.WorkExperiences-FontAwesomeIcon{
+    padding-right: 15px;
+}

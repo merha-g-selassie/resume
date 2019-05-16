@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="278px" viewBox="0 0 312 278" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Cloud_Firestore_Hex</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="225520%" y1="113617%" x2="225520%" y2="118037%" id="linearGradient-1">
+            <stop stop-color="#4387FD" offset="0%"></stop>
+            <stop stop-color="#4683EA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Cloud_Firestore_Hex" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="Group-11-Copy-4" transform="translate(106.000000, 81.000000)" fill="#000000">
+                <polygon id="Rectangle-15"
+                         points="0.902735562 20.4855521 52.709637 0 103.866083 19.0345717 103.866083 48.2069143 52.709637 29.1723426 0.902735562 49.6578947"></polygon>
+                <polygon id="Rectangle-15"
+                         points="1.55319149 62.7930857 52.709637 43.7585139 103.866083 62.7930857 103.866083 91.9654283 52.709637 72.9308566 1.55319149 91.9654283"></polygon>
+                <polygon id="Rectangle-15"
+                         points="52.709637 85.4742002 67.3257643 84.6723426 92.9039871 95.6119711 52.709637 111"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

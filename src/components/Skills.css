@@ -1,0 +1,27 @@
+
+.Skills-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.Skills-Fontawesome-icon{
+    padding-right: 15px;
+}
+.Skill-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Skill-margins{
+    padding: 10px;  
+}
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 100px);
+}
+.grid > *:hover {
+    opacity: 1;
+}

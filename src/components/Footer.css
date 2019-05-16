@@ -1,0 +1,9 @@
+.Footer-icon{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.5em;
+}
+
+a:hover{
+    cursor: pointer;
+}

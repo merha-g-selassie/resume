@@ -1,13 +1,33 @@
 import React from 'react';
 import WorkExperience from './WorkExperience';
+import {faSuitcase} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import './WorkExperiences.css';
+import {themes} from "../colors";
+import {workExperiences} from "../data/workExperiences";
 
 export default () => {
+    const style = {
+        colorDark: {
+            color: themes.darkGrey,
+        }
+    };
     return (
         <div>
-            <h1>abc</h1>
-            <WorkExperience/>
-            <WorkExperience/>
-            <WorkExperience/>
+            <div className={'WorkExperiences-title'}>
+                <div className={'WorkExperiences-FontAwesomeIcon'}>
+                    <FontAwesomeIcon size={'2x'} icon={faSuitcase} color={themes.darkBlue}/>
+                </div>
+                <h2 style={style.colorDark}>Work Experience</h2>
+            </div>
+            {
+                workExperiences.map((work, i) => {
+                    return (
+                        <WorkExperience key={i} work={work}/>
+                    )
+                })
+            }
+
         </div>
     )
 }
