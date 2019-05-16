@@ -19,5 +19,6 @@
     text-align: center;
 }
 .Skill-img{
-    padding-top: 15px;
+    position: relative;
+    top: 20px;
 }

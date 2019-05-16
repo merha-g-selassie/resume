@@ -1,17 +1,17 @@
 import javascript from '../images/JavaScript-logo.png';
-import css from '../images/css.png';
-import html from '../images/html.png';
+import html from '../images/html5.svg';
+import css from '../images/css.svg';
 import nodejs from '../images/nodejs.png';
 import logo from '../logo.svg';
 
 export const skills = [
     {
         name: 'HTML',
-        img: logo,
+        img: html,
     },
     {
         name: 'CSS3',
-        img: logo,
+        img: css,
     },
     {
         name: 'Javascript',
