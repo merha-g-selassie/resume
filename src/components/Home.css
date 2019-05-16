@@ -29,7 +29,11 @@ div.item1{
 	grid-column-start: 2;
 	grid-column-end: 4;
 }
-
+@media (max-width: 870px) {
+	.item3 {
+		padding-bottom: 30px !important;
+	}
+}
 @media (max-width: 600px) {
 	/* CSS Rules */
 	.grid-container {

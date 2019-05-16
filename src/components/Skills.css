@@ -22,17 +22,6 @@
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, 100px);
 }
-/*.grid > * {
-    opacity: 0;
-    transition: opacity 0.25s;
-    z-index: 1;
-    background: rgba(46, 204, 113, 0.4); 
-    background: -webkit-linear-gradient(65deg, rgba(47,128,237, 0.4), rgba(86,204,242, 0.4));
-    background: linear-gradient(65deg, rgba(47,128,237, 0.4), rgba(86,204,242, 0.4));
-    color: #fafafa;
-    font-size: 13px;
-    border-bottom: 8px solid black;
-}*/
 .grid > *:hover {
     opacity: 1;
 }

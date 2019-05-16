@@ -5,7 +5,7 @@
     opacity: 0;
     color: #fafafa;
     font-size: 13px;
-    border-bottom: 8px solid black;
+    border-bottom: 3px solid black;
     transition: opacity 0.25s;
     z-index: 1;
     background: #2ecc7166; 

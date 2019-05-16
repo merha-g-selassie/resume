@@ -1,8 +1,29 @@
-import javascript from '../images/JavaScript-logo.png';
+import logo from '../images/react.svg';
 import html from '../images/html5.svg';
 import css from '../images/css.svg';
-import nodejs from '../images/nodejs.png';
-import logo from '../logo.svg';
+import javascript from '../images/javascript.svg';
+import nodejs from '../images/node.svg';
+import expressjs from '../images/expressjs.svg';
+import java from '../images/java.svg';
+import android from '../images/android.svg';
+import swift from '../images/swift.svg';
+import laravel from '../images/laravel.svg';
+import php from '../images/php.svg';
+import plsql from '../images/plsql.svg';
+import apex from '../images/apex.svg';
+import xml from '../images/xml.svg';
+import json from '../images/json.svg';
+import jquery from '../images/jquery.svg';
+import oracle from '../images/oracle.svg';
+import postgresql from '../images/postgresql.svg';
+import mysqsl from '../images/mysql.svg';
+import mongodb from '../images/mongodb.svg';
+import redis from '../images/redis.svg';
+import firestore from '../images/firestore.svg';
+import git from '../images/git.svg';
+import webpack from '../images/webpack.svg';
+import redux from '../images/redux.svg';
+import springboot from '../images/springboot.svg';
 
 export const skills = [
     {
@@ -15,106 +36,102 @@ export const skills = [
     },
     {
         name: 'Javascript',
-        img: logo,
+        img: javascript,
     },
     {
         name: 'Node.js',
-        img: logo,
+        img: nodejs,
     },
     {
         name: 'React.js',
-        img: javascript,
+        img: logo,
     },
     {
         name: 'Express.js',
-        img: javascript,
+        img: expressjs,
     },
     {
         name: 'JAVA',
-        img: javascript,
+        img: java,
     },
     {
         name: 'Spring Boot',
-        img: javascript,
+        img: springboot,
     },
     {
-        name: 'JPA',
-        img: javascript,
-    },
-    {
-        name: 'Android,',
-        img: javascript,
+        name: 'Android',
+        img: android,
     },
     {
         name: 'Swift',
-        img: javascript,
+        img: swift,
     },
     {
-        name: 'PHP,',
-        img: javascript,
+        name: 'PHP',
+        img: php,
     },
     {
         name: 'Laravel',
-        img: javascript,
+        img: laravel,
     },
     {
         name: 'SQL',
-        img: javascript,
+        img: logo,
     },
     {
         name: 'PL/SQL',
-        img: javascript,
+        img: plsql,
     },
     {
         name: 'APEX',
-        img: javascript,
+        img: apex,
     },
     {
         name: 'JSON',
-        img: javascript,
+        img: json,
     },
     {
         name: 'XML',
-        img: javascript,
+        img: xml,
     },
     {
         name: 'Oracle',
-        img: javascript,
+        img: oracle,
     },
     {
         name: 'PostgreSQL',
-        img: javascript,
+        img: postgresql,
     },
     {
         name: 'MySQL',
-        img: javascript,
+        img: mysqsl,
     },
     {
         name: 'MongoDB',
-        img: javascript,
+        img: mongodb,
     },
     {
         name: 'Redis',
-        img: javascript,
+        img: redis,
     },
     {
         name: 'Cloud Firestore',
-        img: javascript,
+        img: firestore,
     },
     {
         name: 'Git',
-        img: javascript,
+        img: git,
     },
     {
         name: 'Webpack',
-        img: javascript,
+        img: webpack,
     },
     {
         name: 'Redux',
-        img: javascript,
+        img: redux,
     },
     {
         name: 'JQuery',
-        img: javascript,
+        img: jquery,
     },
 ];

@@ -5,10 +5,11 @@ import {themes} from "../colors";
 export default ({language, now}) => {
     const style = {
         margins: {
-            marginBottom: '25px',
+            marginBottom: '15px',
         },
         text: {
             color: themes.darkGrey,
+            marginBottom: 0,
         }
     };
     return (
