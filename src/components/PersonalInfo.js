@@ -9,7 +9,7 @@ import Educations from './Educations';
 import {themes} from "../colors";
 export default () => {
     const style = {
-        color: themes.lightGrey
+        color: themes.darkGrey
     };
     return (
         <div>
