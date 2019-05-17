@@ -44,7 +44,7 @@ div.item1{
 }
 @media (max-width: 870px) {
 	.item3 {
-		padding-bottom: 30px !important;
+		padding-bottom: 50px !important;
 	}
 }
 @media (max-width: 600px) {
