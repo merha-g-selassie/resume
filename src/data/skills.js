@@ -24,6 +24,7 @@ import git from '../images/git.svg';
 import webpack from '../images/webpack.svg';
 import redux from '../images/redux.svg';
 import springboot from '../images/springboot.svg';
+import sql from '../images/sql.svg';
 
 export const skills = [
     {
@@ -88,7 +89,7 @@ export const skills = [
     },
     {
         name: 'SQL',
-        img: logo,
+        img: sql,
     },
     {
         name: 'PL/SQL',
