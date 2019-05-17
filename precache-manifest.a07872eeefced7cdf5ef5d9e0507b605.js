@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5536bedb3ae2a5f281637969d0657a3d",
+    "revision": "be3104896dcf496a2830808426ca5c26",
     "url": "/resume/index.html"
   },
   {
-    "revision": "e74d4e3889b0f157e072",
-    "url": "/resume/static/css/main.3c2648fc.chunk.css"
+    "revision": "34f40451b6e8fcbef660",
+    "url": "/resume/static/css/main.d4f0b695.chunk.css"
   },
   {
-    "revision": "cf7f47deb7fd41250a78",
-    "url": "/resume/static/js/2.9343fcdd.chunk.js"
+    "revision": "5185eb839f1e46e817cf",
+    "url": "/resume/static/js/2.b4447470.chunk.js"
   },
   {
-    "revision": "e74d4e3889b0f157e072",
-    "url": "/resume/static/js/main.e117ea84.chunk.js"
+    "revision": "34f40451b6e8fcbef660",
+    "url": "/resume/static/js/main.44718b94.chunk.js"
   },
   {
     "revision": "699f89d957187d0ac949",
@@ -122,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0fb55b6ddd540b1efe403cb5ecd3eca8",
     "url": "/resume/static/media/springboot.0fb55b6d.svg"
+  },
+  {
+    "revision": "976897bcac851d50c5fdcff74021d3e9",
+    "url": "/resume/static/media/sql.976897bc.svg"
   },
   {
     "revision": "fe7112bdfb497385ea6d632849573bd9",
