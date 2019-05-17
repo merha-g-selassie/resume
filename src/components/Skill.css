@@ -23,7 +23,7 @@
     top: 20px;
 }
 
-@media (max-width: 330px){
+@media (max-height: 400px){
     .Skill-bg{
         height: 13%;
     }
