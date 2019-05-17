@@ -5,12 +5,14 @@
     opacity: 0;
     color: #fafafa;
     font-size: 13px;
-    border-bottom: 3px solid black;
+    /*border-bottom: 3px solid black;*/
     transition: opacity 0.25s;
     z-index: 1;
+    /*
     background: #2ecc7166; 
     background: -webkit-linear-gradient(65deg, rgba(47,128,237, 0.4), rgba(86,204,242, 0.4));
     background: linear-gradient(65deg, rgba(47,128,237, 0.4), rgba(86,204,242, 0.4));
+    */
 }
 .Skill-bg:hover {
     opacity: 1;
