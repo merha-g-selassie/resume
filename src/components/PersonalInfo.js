@@ -33,7 +33,7 @@ export default () => {
                     <div className={'PersonalInfo-div-flex-row'}>
                         <FontAwesomeIcon className={'PersonalInfo-FontAwesomeIcon'} size={'lg'} icon={faEnvelope}
                                          color={themes.darkBlue}/>
-                        <span><a href={'mailto:merhawi.gs@gmail.com'}>merhawi.gs@gmail.com</a></span>
+                        <span><a style={style} href={'mailto:merhawi.gs@gmail.com'}>merhawi.gs@gmail.com</a></span>
                     </div>
                 </div>
                 <Separation/>

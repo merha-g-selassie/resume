@@ -39,16 +39,28 @@ export const skills = [
         img: javascript,
     },
     {
+        name: 'JQuery',
+        img: jquery,
+    },
+    {
         name: 'Node.js',
         img: nodejs,
+    },
+    {
+        name: 'Express.js',
+        img: expressjs,
     },
     {
         name: 'React.js',
         img: logo,
     },
     {
-        name: 'Express.js',
-        img: expressjs,
+        name: 'Webpack',
+        img: webpack,
+    },
+    {
+        name: 'Redux',
+        img: redux,
     },
     {
         name: 'JAVA',
@@ -121,17 +133,5 @@ export const skills = [
     {
         name: 'Git',
         img: git,
-    },
-    {
-        name: 'Webpack',
-        img: webpack,
-    },
-    {
-        name: 'Redux',
-        img: redux,
-    },
-    {
-        name: 'JQuery',
-        img: jquery,
     },
 ];
