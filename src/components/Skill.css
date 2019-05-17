@@ -23,8 +23,18 @@
     top: 20px;
 }
 
-@media (max-height: 400px){
+@media (max-height: 700px){
     .Skill-bg{
         height: 13%;
+    }
+}
+@media (max-height: 500px){
+    .Skill-bg{
+        height: 22%;
+    }
+}
+@media (max-height: 320px){
+    .Skill-bg{
+        height: 25%;
     }
 }
