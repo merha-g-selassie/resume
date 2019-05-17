@@ -1,5 +1,7 @@
 import React from 'react';
-import myPicture from '../images/john-westrock-638048-unsplash.jpg';
+import small from '../images/800.jpg';
+import medium from '../images/1600.jpg';
+import large from '../images/3500.jpg';
 import './PersonalInfo.css';
 import {faEnvelope, faHome, faBriefcase} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -14,7 +16,11 @@ export default () => {
     return (
         <div>
             <div className={'PersonalInfo-text-image'}>
-                <img src={myPicture} alt={'myPicture'}/>
+                <picture>
+                    <source media="(max-width: 500px" srcset={small}/>
+                    <source media="(min-width: 1600px" srcset={large}/>
+                    <img src={medium} alt={'myPicture'}/>
+                </picture>
                 <p className={'bottom-left-firstname'}>Merhawi</p>
                 <p className={'bottom-left-lastname'}>GHEBRE SELASSIE</p>
             </div>
