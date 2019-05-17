@@ -17,7 +17,7 @@ export default ({language, now}) => {
             <style type="text/css">
                 {`
                  .progress-bar{
-                    background-color: ${themes.darkBlue};
+                    background-color: ${themes.darkBlue} !important;
                  }
                 `}
             </style>
